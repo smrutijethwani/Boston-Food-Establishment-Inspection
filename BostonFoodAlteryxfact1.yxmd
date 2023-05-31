@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="306" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="businesskey" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="license_key" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="address_key" />
+            </JoinInfo>
+            <JoinInfo connection="#4">
+              <Field field="ownerkey" />
+            </JoinInfo>
+            <JoinInfo connection="#5">
+              <Field field="voilation_key" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_licenseno" selected="True" rename="Input_#2_licenseno" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||select business1.* 
+from business1</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=select business1.* 
+from bu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="businesskey" source="File: aka:DESKTOP-4DAN2MJ|||select business1.* &#xA;from business1" type="Int32" />
+            <Field name="businessname" size="56" source="File: aka:DESKTOP-4DAN2MJ|||select business1.* &#xA;from business1" type="V_String" />
+            <Field name="dbaname" size="35" source="File: aka:DESKTOP-4DAN2MJ|||select business1.* &#xA;from business1" type="V_String" />
+            <Field name="licenseno" source="File: aka:DESKTOP-4DAN2MJ|||select business1.* &#xA;from business1" type="Int32" />
+            <Field name="property_id" source="File: aka:DESKTOP-4DAN2MJ|||select business1.* &#xA;from business1" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||select licensedetail.* 
+from licensedetail</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=select licensedetail.* 
+fro...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="license_key" source="File: aka:DESKTOP-4DAN2MJ|||select licensedetail.* &#xA;from licensedetail" type="Int32" />
+            <Field name="licenseno" source="File: aka:DESKTOP-4DAN2MJ|||select licensedetail.* &#xA;from licensedetail" type="Int32" />
+            <Field name="licstatus" size="8" source="File: aka:DESKTOP-4DAN2MJ|||select licensedetail.* &#xA;from licensedetail" type="String" />
+            <Field name="licensecat" size="3" source="File: aka:DESKTOP-4DAN2MJ|||select licensedetail.* &#xA;from licensedetail" type="String" />
+            <Field name="descript" size="29" source="File: aka:DESKTOP-4DAN2MJ|||select licensedetail.* &#xA;from licensedetail" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||select location1.* 
+from location1</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=select location1.* 
+from lo...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="address_key" source="File: aka:DESKTOP-4DAN2MJ|||select location1.* &#xA;from location1" type="Int32" />
+            <Field name="address" size="32" source="File: aka:DESKTOP-4DAN2MJ|||select location1.* &#xA;from location1" type="V_String" />
+            <Field name="city" size="19" source="File: aka:DESKTOP-4DAN2MJ|||select location1.* &#xA;from location1" type="V_String" />
+            <Field name="state" size="2" source="File: aka:DESKTOP-4DAN2MJ|||select location1.* &#xA;from location1" type="String" />
+            <Field name="zip" size="4" source="File: aka:DESKTOP-4DAN2MJ|||select location1.* &#xA;from location1" type="String" />
+            <Field name="Latitude" source="File: aka:DESKTOP-4DAN2MJ|||select location1.* &#xA;from location1" type="Double" />
+            <Field name="Longitude" source="File: aka:DESKTOP-4DAN2MJ|||select location1.* &#xA;from location1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||select ownerdetail.* 
+from ownerdetail</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=select ownerdetail.* 
+from ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ownerkey" source="File: aka:DESKTOP-4DAN2MJ|||select ownerdetail.* &#xA;from ownerdetail" type="Int32" />
+            <Field name="legalowner" size="45" source="File: aka:DESKTOP-4DAN2MJ|||select ownerdetail.* &#xA;from ownerdetail" type="V_String" />
+            <Field name="namelast" size="48" source="File: aka:DESKTOP-4DAN2MJ|||select ownerdetail.* &#xA;from ownerdetail" type="V_String" />
+            <Field name="namefirst" size="35" source="File: aka:DESKTOP-4DAN2MJ|||select ownerdetail.* &#xA;from ownerdetail" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||select voilationdata.* 
+from voilationdata</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=select voilationdata.* 
+fro...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="voilation_key" source="File: aka:DESKTOP-4DAN2MJ|||select voilationdata.* &#xA;from voilationdata" type="Int32" />
+            <Field name="violation" size="24" source="File: aka:DESKTOP-4DAN2MJ|||select voilationdata.* &#xA;from voilationdata" type="V_String" />
+            <Field name="viollevel" size="4" source="File: aka:DESKTOP-4DAN2MJ|||select voilationdata.* &#xA;from voilationdata" type="String" />
+            <Field name="violdesc" size="141" source="File: aka:DESKTOP-4DAN2MJ|||select voilationdata.* &#xA;from voilationdata" type="V_String" />
+            <Field name="violdttm" size="16" source="File: aka:DESKTOP-4DAN2MJ|||select voilationdata.* &#xA;from voilationdata" type="String" />
+            <Field name="violstatus" size="4" source="File: aka:DESKTOP-4DAN2MJ|||select voilationdata.* &#xA;from voilationdata" type="String" />
+            <Field name="comments" size="254" source="File: aka:DESKTOP-4DAN2MJ|||select voilationdata.* &#xA;from voilationdata" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="378" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>location_key</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="location_key" selected="True" />
+            <SelectField field="businesskey" selected="True" />
+            <SelectField field="businessname" selected="True" />
+            <SelectField field="property_id" selected="True" />
+            <SelectField field="license_key" selected="True" />
+            <SelectField field="address_key" selected="True" />
+            <SelectField field="ownerkey" selected="True" />
+            <SelectField field="voilation_key" selected="True" />
+            <SelectField field="violdttm" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="510" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_48628_686cbc728c674270af8b1696b7d10e6b_\Engine_48056_9d5e8640723c403a8785389c28697206_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="677" y="137" width="156" height="647" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Outputdata</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+          <Caption>Outputdata</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="702" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||facttable</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL>ALTER TABLE facttable
+ADD Foreign KEY (businesskey)
+REFERENCES business1(businesskey);
+
+ALTER TABLE facttable
+ADD Foreign KEY (address_key)
+REFERENCES location1(address_key);
+
+ALTER TABLE facttable
+ADD Foreign KEY (license_key)
+REFERENCES licensedetail(license_key);
+
+ALTER TABLE facttable
+ADD Foreign KEY (voilation_key)
+REFERENCES voilationdata(voilation_key);
+
+ALTER TABLE facttable
+ADD Foreign KEY (ownerkey)
+REFERENCES ownerdetail(ownerkey);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL>drop table if exists facttable;</PreSQL>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=facttable</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>BostonFoodAlteryxfact1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0dcfbc10-5c9a-42f8-acaa-533d2436b878" />
+      <Telemetry>
+        <PreviousWorkflowId value="67d04b0a-084a-4af8-806e-833fcd41407f" />
+        <OriginWorkflowId value="67d04b0a-084a-4af8-806e-833fcd41407f" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

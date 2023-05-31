@@ -1,0 +1,1699 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\yashb\Downloads\tmp2ujc6017.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tmp2ujc6017.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="businessname" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="dbaname" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="legalowner" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="namelast" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="namefirst" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="licenseno" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="issdttm" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="expdttm" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="licstatus" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="licensecat" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="descript" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="result" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="resultdttm" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="violation" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="viollevel" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="violdesc" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="violdttm" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="violstatus" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="statusdate" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="comments" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="state" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="zip" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="property_id" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+            <Field name="location" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\yashb\Downloads\tmplbbvk0o4.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tmplbbvk0o4.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessName" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="DBAName" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="LICSTATUS" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="LICENSECAT" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="DESCRIPT" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="LicenseAddDtTm" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="dayphn" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="Property_ID" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="414" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Radio Button (38)">True</Value>
+          <Value name="Drop Down (14)">property_id</Value>
+          <Value name="Drop Down (15)">Property_ID</Value>
+          <Value name="Drop Down (13)">A (left join)</Value>
+          <Value name="Text Box (35)" />
+          <Value name="Radio Button (39)">False</Value>
+          <Value name="Text Box (40)" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Advanced Join (1).yxmc" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="294" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>property_id</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-02-23 13:57:01</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-02-23 13:57:01</StartDate>
+              <EndDate>2022-02-23 13:57:01</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([property_id])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="318" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Property_ID</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-02-23 13:57:05</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-02-23 13:57:05</StartDate>
+              <EndDate>2022-02-23 13:57:05</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Property_ID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="234" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Property_ID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_4ddc87a3c11349e5a7a2222b1246ce64_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="114" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_d7a80bd75f9742cf8885e7a4f21deaeb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="126" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_440e4da5847f4189a766fe85f2a6d77d_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_5b9b00f16ec74fe9a886ece4ba287810_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_478e185750bd4479b0b9cf6686b35967_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="473" y="108" width="565" height="632" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>DimTable</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+          <Caption>DimTable</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Caption>DimTable</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>DimTable</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Caption>DimTable</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="534" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="businessname" selected="True" />
+                <Field field="dbaname" selected="True" />
+                <Field field="legalowner" selected="True" />
+                <Field field="namelast" selected="True" />
+                <Field field="namefirst" selected="True" />
+                <Field field="licenseno" selected="True" />
+                <Field field="issdttm" selected="True" />
+                <Field field="expdttm" selected="True" />
+                <Field field="licstatus" selected="True" />
+                <Field field="licensecat" selected="True" />
+                <Field field="descript" selected="True" />
+                <Field field="result" selected="True" />
+                <Field field="resultdttm" selected="True" />
+                <Field field="violation" selected="True" />
+                <Field field="viollevel" selected="True" />
+                <Field field="violdesc" selected="True" />
+                <Field field="violdttm" selected="True" />
+                <Field field="violstatus" selected="True" />
+                <Field field="statusdate" selected="True" />
+                <Field field="comments" selected="True" />
+                <Field field="address" selected="True" />
+                <Field field="city" selected="True" />
+                <Field field="state" selected="True" />
+                <Field field="zip" selected="True" />
+                <Field field="property_id" selected="True" />
+                <Field field="location" selected="True" />
+                <Field field="Input_#2_BusinessName" selected="True" />
+                <Field field="Input_#2_DBAName" selected="True" />
+                <Field field="Input_#2_Address" selected="True" />
+                <Field field="Input_#2_CITY" selected="True" />
+                <Field field="Input_#2_State" selected="True" />
+                <Field field="Input_#2_ZIP" selected="True" />
+                <Field field="Input_#2_LICSTATUS" selected="True" />
+                <Field field="Input_#2_LICENSECAT" selected="True" />
+                <Field field="Input_#2_DESCRIPT" selected="True" />
+                <Field field="LicenseAddDtTm" selected="True" />
+                <Field field="dayphn" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="businessname" size="56" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="dbaname" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="legalowner" size="45" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namelast" size="48" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namefirst" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="licenseno" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="Int32" />
+                <Field name="issdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="expdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licstatus" size="8" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licensecat" size="3" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="descript" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="result" size="10" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="resultdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violation" size="24" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="viollevel" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violdesc" size="141" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="violdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violstatus" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="statusdate" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="comments" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="address" size="32" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="city" size="19" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="state" size="2" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="zip" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="property_id" source="Formula: IF [__a__]==Null() THEN [__b__] ELSE [__a__] ENDIF" type="Int32" />
+                <Field name="location" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="Input_#2_BusinessName" size="50" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_DBAName" size="35" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_Address" size="28" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_CITY" size="13" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_State" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_ZIP" size="5" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICSTATUS" size="6" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICENSECAT" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_DESCRIPT" size="29" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="LicenseAddDtTm" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="DateTime" />
+                <Field name="dayphn" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Int64" />
+                <Field name="Latitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+                <Field name="Longitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="606" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>businesskey</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="678" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="zip" selected="False" />
+                <SelectField field="businesskey" selected="True" />
+                <SelectField field="businessname" selected="True" />
+                <SelectField field="city" selected="False" />
+                <SelectField field="comments" selected="False" />
+                <SelectField field="dayphn" selected="False" />
+                <SelectField field="dbaname" selected="True" />
+                <SelectField field="descript" selected="False" />
+                <SelectField field="expdttm" selected="False" />
+                <SelectField field="issdttm" selected="False" />
+                <SelectField field="Latitude" selected="False" />
+                <SelectField field="legalowner" selected="False" />
+                <SelectField field="LicenseAddDtTm" selected="False" />
+                <SelectField field="licensecat" selected="False" />
+                <SelectField field="licenseno" selected="True" />
+                <SelectField field="licstatus" selected="False" />
+                <SelectField field="location" selected="False" />
+                <SelectField field="Longitude" selected="False" />
+                <SelectField field="namefirst" selected="False" />
+                <SelectField field="namelast" selected="False" />
+                <SelectField field="property_id" selected="True" />
+                <SelectField field="result" selected="False" />
+                <SelectField field="resultdttm" selected="False" />
+                <SelectField field="state" selected="False" />
+                <SelectField field="statusdate" selected="False" />
+                <SelectField field="violation" selected="False" />
+                <SelectField field="violdesc" selected="False" />
+                <SelectField field="violdttm" selected="False" />
+                <SelectField field="viollevel" selected="False" />
+                <SelectField field="violstatus" selected="False" />
+                <SelectField field="address" selected="False" />
+                <SelectField field="Input_#2_BusinessName" selected="False" />
+                <SelectField field="Input_#2_DBAName" selected="False" />
+                <SelectField field="Input_#2_Address" selected="False" />
+                <SelectField field="Input_#2_CITY" selected="False" />
+                <SelectField field="Input_#2_State" selected="False" />
+                <SelectField field="Input_#2_ZIP" selected="False" />
+                <SelectField field="Input_#2_LICSTATUS" selected="False" />
+                <SelectField field="Input_#2_LICENSECAT" selected="False" />
+                <SelectField field="Input_#2_DESCRIPT" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="786" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_17e7bed4a9f842c0a5d0218b2a288767_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="498" y="189" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="businessname" selected="True" />
+                <Field field="dbaname" selected="True" />
+                <Field field="legalowner" selected="True" />
+                <Field field="namelast" selected="True" />
+                <Field field="namefirst" selected="True" />
+                <Field field="licenseno" selected="True" />
+                <Field field="issdttm" selected="True" />
+                <Field field="expdttm" selected="True" />
+                <Field field="licstatus" selected="True" />
+                <Field field="licensecat" selected="True" />
+                <Field field="descript" selected="True" />
+                <Field field="result" selected="True" />
+                <Field field="resultdttm" selected="True" />
+                <Field field="violation" selected="True" />
+                <Field field="viollevel" selected="True" />
+                <Field field="violdesc" selected="True" />
+                <Field field="violdttm" selected="True" />
+                <Field field="violstatus" selected="True" />
+                <Field field="statusdate" selected="True" />
+                <Field field="comments" selected="True" />
+                <Field field="address" selected="True" />
+                <Field field="city" selected="True" />
+                <Field field="state" selected="True" />
+                <Field field="zip" selected="True" />
+                <Field field="property_id" selected="True" />
+                <Field field="location" selected="True" />
+                <Field field="Input_#2_BusinessName" selected="True" />
+                <Field field="Input_#2_DBAName" selected="True" />
+                <Field field="Input_#2_Address" selected="True" />
+                <Field field="Input_#2_CITY" selected="True" />
+                <Field field="Input_#2_State" selected="True" />
+                <Field field="Input_#2_ZIP" selected="True" />
+                <Field field="Input_#2_LICSTATUS" selected="True" />
+                <Field field="Input_#2_LICENSECAT" selected="True" />
+                <Field field="Input_#2_DESCRIPT" selected="True" />
+                <Field field="LicenseAddDtTm" selected="True" />
+                <Field field="dayphn" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="businessname" size="56" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="dbaname" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="legalowner" size="45" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namelast" size="48" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namefirst" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="licenseno" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="Int32" />
+                <Field name="issdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="expdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licstatus" size="8" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licensecat" size="3" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="descript" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="result" size="10" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="resultdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violation" size="24" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="viollevel" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violdesc" size="141" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="violdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violstatus" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="statusdate" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="comments" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="address" size="32" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="city" size="19" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="state" size="2" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="zip" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="property_id" source="Formula: IF [__a__]==Null() THEN [__b__] ELSE [__a__] ENDIF" type="Int32" />
+                <Field name="location" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="Input_#2_BusinessName" size="50" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_DBAName" size="35" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_Address" size="28" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_CITY" size="13" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_State" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_ZIP" size="5" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICSTATUS" size="6" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICENSECAT" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_DESCRIPT" size="29" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="LicenseAddDtTm" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="DateTime" />
+                <Field name="dayphn" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Int64" />
+                <Field name="Latitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+                <Field name="Longitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="570" y="182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>ownerkey</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="176" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ownerkey" selected="True" />
+                <SelectField field="legalowner" selected="True" />
+                <SelectField field="namelast" selected="True" />
+                <SelectField field="namefirst" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="726" y="157" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_da498a18dc314cfe9fdfe2b0d31b46c3_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="534" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="businessname" selected="True" />
+                <Field field="dbaname" selected="True" />
+                <Field field="legalowner" selected="True" />
+                <Field field="namelast" selected="True" />
+                <Field field="namefirst" selected="True" />
+                <Field field="licenseno" selected="True" />
+                <Field field="issdttm" selected="True" />
+                <Field field="expdttm" selected="True" />
+                <Field field="licstatus" selected="True" />
+                <Field field="licensecat" selected="True" />
+                <Field field="descript" selected="True" />
+                <Field field="result" selected="True" />
+                <Field field="resultdttm" selected="True" />
+                <Field field="violation" selected="True" />
+                <Field field="viollevel" selected="True" />
+                <Field field="violdesc" selected="True" />
+                <Field field="violdttm" selected="True" />
+                <Field field="violstatus" selected="True" />
+                <Field field="statusdate" selected="True" />
+                <Field field="comments" selected="True" />
+                <Field field="address" selected="True" />
+                <Field field="city" selected="True" />
+                <Field field="state" selected="True" />
+                <Field field="zip" selected="True" />
+                <Field field="property_id" selected="True" />
+                <Field field="location" selected="True" />
+                <Field field="Input_#2_BusinessName" selected="True" />
+                <Field field="Input_#2_DBAName" selected="True" />
+                <Field field="Input_#2_Address" selected="True" />
+                <Field field="Input_#2_CITY" selected="True" />
+                <Field field="Input_#2_State" selected="True" />
+                <Field field="Input_#2_ZIP" selected="True" />
+                <Field field="Input_#2_LICSTATUS" selected="True" />
+                <Field field="Input_#2_LICENSECAT" selected="True" />
+                <Field field="Input_#2_DESCRIPT" selected="True" />
+                <Field field="LicenseAddDtTm" selected="True" />
+                <Field field="dayphn" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="businessname" size="56" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="dbaname" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="legalowner" size="45" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namelast" size="48" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namefirst" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="licenseno" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="Int32" />
+                <Field name="issdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="expdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licstatus" size="8" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licensecat" size="3" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="descript" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="result" size="10" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="resultdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violation" size="24" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="viollevel" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violdesc" size="141" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="violdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violstatus" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="statusdate" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="comments" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="address" size="32" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="city" size="19" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="state" size="2" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="zip" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="property_id" source="Formula: IF [__a__]==Null() THEN [__b__] ELSE [__a__] ENDIF" type="Int32" />
+                <Field name="location" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="Input_#2_BusinessName" size="50" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_DBAName" size="35" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_Address" size="28" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_CITY" size="13" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_State" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_ZIP" size="5" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICSTATUS" size="6" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICENSECAT" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_DESCRIPT" size="29" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="LicenseAddDtTm" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="DateTime" />
+                <Field name="dayphn" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Int64" />
+                <Field name="Latitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+                <Field name="Longitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="510" y="346" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="businessname" selected="True" />
+                <Field field="dbaname" selected="True" />
+                <Field field="legalowner" selected="True" />
+                <Field field="namelast" selected="True" />
+                <Field field="namefirst" selected="True" />
+                <Field field="licenseno" selected="True" />
+                <Field field="issdttm" selected="True" />
+                <Field field="expdttm" selected="True" />
+                <Field field="licstatus" selected="True" />
+                <Field field="licensecat" selected="True" />
+                <Field field="descript" selected="True" />
+                <Field field="result" selected="True" />
+                <Field field="resultdttm" selected="True" />
+                <Field field="violation" selected="True" />
+                <Field field="viollevel" selected="True" />
+                <Field field="violdesc" selected="True" />
+                <Field field="violdttm" selected="True" />
+                <Field field="violstatus" selected="True" />
+                <Field field="statusdate" selected="True" />
+                <Field field="comments" selected="True" />
+                <Field field="address" selected="True" />
+                <Field field="city" selected="True" />
+                <Field field="state" selected="True" />
+                <Field field="zip" selected="True" />
+                <Field field="property_id" selected="True" />
+                <Field field="location" selected="True" />
+                <Field field="Input_#2_BusinessName" selected="True" />
+                <Field field="Input_#2_DBAName" selected="True" />
+                <Field field="Input_#2_Address" selected="True" />
+                <Field field="Input_#2_CITY" selected="True" />
+                <Field field="Input_#2_State" selected="True" />
+                <Field field="Input_#2_ZIP" selected="True" />
+                <Field field="Input_#2_LICSTATUS" selected="True" />
+                <Field field="Input_#2_LICENSECAT" selected="True" />
+                <Field field="Input_#2_DESCRIPT" selected="True" />
+                <Field field="LicenseAddDtTm" selected="True" />
+                <Field field="dayphn" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="businessname" size="56" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="dbaname" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="legalowner" size="45" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namelast" size="48" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namefirst" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="licenseno" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="Int32" />
+                <Field name="issdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="expdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licstatus" size="8" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licensecat" size="3" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="descript" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="result" size="10" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="resultdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violation" size="24" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="viollevel" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violdesc" size="141" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="violdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violstatus" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="statusdate" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="comments" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="address" size="32" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="city" size="19" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="state" size="2" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="zip" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="property_id" source="Formula: IF [__a__]==Null() THEN [__b__] ELSE [__a__] ENDIF" type="Int32" />
+                <Field name="location" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="Input_#2_BusinessName" size="50" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_DBAName" size="35" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_Address" size="28" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_CITY" size="13" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_State" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_ZIP" size="5" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICSTATUS" size="6" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICENSECAT" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_DESCRIPT" size="29" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="LicenseAddDtTm" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="DateTime" />
+                <Field name="dayphn" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Int64" />
+                <Field name="Latitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+                <Field name="Longitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="522" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="businessname" selected="True" />
+                <Field field="dbaname" selected="True" />
+                <Field field="legalowner" selected="True" />
+                <Field field="namelast" selected="True" />
+                <Field field="namefirst" selected="True" />
+                <Field field="licenseno" selected="True" />
+                <Field field="issdttm" selected="True" />
+                <Field field="expdttm" selected="True" />
+                <Field field="licstatus" selected="True" />
+                <Field field="licensecat" selected="True" />
+                <Field field="descript" selected="True" />
+                <Field field="result" selected="True" />
+                <Field field="resultdttm" selected="True" />
+                <Field field="violation" selected="True" />
+                <Field field="viollevel" selected="True" />
+                <Field field="violdesc" selected="True" />
+                <Field field="violdttm" selected="True" />
+                <Field field="violstatus" selected="True" />
+                <Field field="statusdate" selected="True" />
+                <Field field="comments" selected="True" />
+                <Field field="address" selected="True" />
+                <Field field="city" selected="True" />
+                <Field field="state" selected="True" />
+                <Field field="zip" selected="True" />
+                <Field field="property_id" selected="True" />
+                <Field field="location" selected="True" />
+                <Field field="Input_#2_BusinessName" selected="True" />
+                <Field field="Input_#2_DBAName" selected="True" />
+                <Field field="Input_#2_Address" selected="True" />
+                <Field field="Input_#2_CITY" selected="True" />
+                <Field field="Input_#2_State" selected="True" />
+                <Field field="Input_#2_ZIP" selected="True" />
+                <Field field="Input_#2_LICSTATUS" selected="True" />
+                <Field field="Input_#2_LICENSECAT" selected="True" />
+                <Field field="Input_#2_DESCRIPT" selected="True" />
+                <Field field="LicenseAddDtTm" selected="True" />
+                <Field field="dayphn" selected="True" />
+                <Field field="Latitude" selected="True" />
+                <Field field="Longitude" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="businessname" size="56" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="dbaname" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="legalowner" size="45" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namelast" size="48" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="namefirst" size="35" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="licenseno" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="Int32" />
+                <Field name="issdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="expdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licstatus" size="8" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="licensecat" size="3" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="descript" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="result" size="10" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="resultdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violation" size="24" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="viollevel" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violdesc" size="141" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="violdttm" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="violstatus" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="statusdate" size="16" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="comments" size="254" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="address" size="32" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="city" size="19" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="V_String" />
+                <Field name="state" size="2" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="zip" size="4" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="property_id" source="Formula: IF [__a__]==Null() THEN [__b__] ELSE [__a__] ENDIF" type="Int32" />
+                <Field name="location" size="29" source="File: C:\Users\yashb\Downloads\tmp2ujc6017.csv" type="String" />
+                <Field name="Input_#2_BusinessName" size="50" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_DBAName" size="35" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_Address" size="28" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="Input_#2_CITY" size="13" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_State" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_ZIP" size="5" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICSTATUS" size="6" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_LICENSECAT" size="2" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="String" />
+                <Field name="Input_#2_DESCRIPT" size="29" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="V_String" />
+                <Field name="LicenseAddDtTm" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="DateTime" />
+                <Field name="dayphn" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Int64" />
+                <Field name="Latitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+                <Field name="Longitude" source="File: C:\Users\yashb\Downloads\tmplbbvk0o4.csv" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="594" y="269" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>address_key</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="594" y="345" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>license_key</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="606" y="569" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>voilation_key</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="678" y="269" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="address_key" selected="True" />
+                <SelectField field="address" selected="True" />
+                <SelectField field="city" selected="True" />
+                <SelectField field="state" selected="True" />
+                <SelectField field="zip" selected="True" />
+                <SelectField field="Latitude" selected="True" />
+                <SelectField field="Longitude" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="666" y="345" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="license_key" selected="True" />
+                <SelectField field="licenseno" selected="True" />
+                <SelectField field="licstatus" selected="True" />
+                <SelectField field="licensecat" selected="True" />
+                <SelectField field="descript" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="678" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="voilation_key" selected="True" />
+                <SelectField field="violation" selected="True" />
+                <SelectField field="viollevel" selected="True" />
+                <SelectField field="violdesc" selected="True" />
+                <SelectField field="violdttm" selected="True" />
+                <SelectField field="violstatus" selected="True" />
+                <SelectField field="comments" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="882" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_594545080f1d4c158260e26faf40e1bc_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="870" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_85a8c6196b8d438ea9dca2da71192a20_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="954" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\yashb\AppData\Local\Temp\Engine_49392_e300ab34f6c446efb59e1f9a21f2c02b_\Engine_48056_c718f2169ed3437dba5ee58f95a9809e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="726" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||ownerdetail</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE ownerdetail
+ALTER COLUMN ownerkey int NOT NULL;
+
+ALTER TABLE ownerdetail
+ADD PRIMARY KEY (ownerkey);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL>drop table if exists ownerdetail1;</PreSQL>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=ownerdetail</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="882" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||location1</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE location1
+ALTER COLUMN address_key int NOT NULL;
+
+ALTER TABLE location1
+ADD PRIMARY KEY (address_key);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL>drop table if exists location1;</PreSQL>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=location1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="774" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||licensedetail</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE licensedetail
+ALTER COLUMN license_key int NOT NULL;
+
+ALTER TABLE licensedetail
+ADD PRIMARY KEY (license_key);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL>drop table if exists licensedetail1;</PreSQL>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=licensedetail</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="786" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||business1</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE business1
+ALTER COLUMN businesskey int NOT NULL;
+
+ALTER TABLE business1
+ADD PRIMARY KEY (businesskey);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL>drop table if exists business1;</PreSQL>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=business1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="822" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:DESKTOP-4DAN2MJ|||voilationdata</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE voilationdata
+ALTER COLUMN voilation_key int NOT NULL;
+
+ALTER TABLE voilationdata
+ADD PRIMARY KEY (voilation_key);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL>drop table if exists voilationdata1;</PreSQL>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:DESKTOP-4DAN2MJ
+Query=voilationdata</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output8" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output8" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output8" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output8" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output8" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output8" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="10" Connection="Input3" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="10" Connection="Input4" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="False" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Unique" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>BostonFoodAlteryx1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="43b02970-6271-45fa-a09a-f9c4e730641d" />
+      <Telemetry>
+        <PreviousWorkflowId value="5f3ab1c4-708d-4fc5-a32a-5a2a6aa4489c" />
+        <OriginWorkflowId value="5f3ab1c4-708d-4fc5-a32a-5a2a6aa4489c" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
